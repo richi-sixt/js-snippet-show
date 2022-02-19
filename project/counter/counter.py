@@ -5,6 +5,6 @@ counter_bp = Blueprint('counter', __name__,
                           static_folder='static',
                           url_prefix="/counter")
 
-@counter_bp.route('/counter')
+@counter_bp.route('/')
 def counter():
     return render_template('counter/index.html', title="Counter")
