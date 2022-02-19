@@ -1,0 +1,13 @@
+{% extends "base.html" %} {% block content %}
+<div class="container">
+<div class="col-md-8 order-md-1">
+  <h1>Willkommen zur JS Snippet Show!</h1>
+  <br />
+  <p>Hier findest du Javascript Beispiele</p>
+        <div class="container">
+    <p><a href="{{ url_for('colorflipper.simple') }}" class="btn btn-primary" role="button">Color Flipper</a></p>
+    <p><a href="{{ url_for('counter.counter') }}" class="btn btn-primary" role="button">Counter</a></p>
+      </div>
+</div>
+</div>
+{% endblock content %}

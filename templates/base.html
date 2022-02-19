@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+  {% include 'topnav-links.html'%}
+
+    {% if title %}
+    <title>{{ title }} - JS Snippet Show</title>
+    {% else %}
+    <title>JS Snippet Show</title>
+    {% endif %}
+  </head>
+  <body>
+    {% include 'topnav.html'%} 
+    {% block content %}{% endblock %}
+    {% include 'footer.html' %}
+    {% include 'scripts.html' %}
+  </body>
+</html>
