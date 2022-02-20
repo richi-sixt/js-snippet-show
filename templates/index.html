@@ -1,14 +1,12 @@
 {% extends "base.html" %} {% block content %}
 <div class="container">
-<div class="col-md-8 order-md-1">
-  <h1>Willkommen zur JS Snippet Show!</h1>
-  <br />
-  <p>Hier findest du Javascript Beispiele</p>
-        <div class="container">
-    <a href="{{ url_for('colorflipper.simple') }}" class="btn btn-primary" role="button">Color Flipper</a>
-    <a href="{{ url_for('counter.counter') }}" class="btn btn-primary" role="button">Counter</a>
-    <a href="{{ url_for('review.review') }}" class="btn btn-primary" role="button">Review</a>
-      </div>
-</div>
+  <div class="col-md-8 order-md-1">
+    <h1>Willkommen zur JS Snippet Show!</h1>
+    <br />
+    <p>Hier findest du Javascript Beispiele</p>
+      <a href="{{ url_for('colorflipper.simple') }}" class="btn btn-primary" role="button">Color Flipper</a>
+      <a href="{{ url_for('counter.counter') }}" class="btn btn-primary" role="button">Counter</a>
+      <a href="{{ url_for('review.review') }}" class="btn btn-primary" role="button">Review</a>
+  </div>
 </div>
 {% endblock content %}
