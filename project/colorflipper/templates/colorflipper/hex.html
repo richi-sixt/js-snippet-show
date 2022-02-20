@@ -11,8 +11,10 @@
   <body>
     {% include 'topnav.html'%}
     <div class="container">
-      <a href="{{ url_for('colorflipper.simple') }}" class="btn btn-dark btn-lg btn-block" role="button">Simple</a>
-      <a href="{{ url_for('colorflipper.hex') }}" class="btn btn-dark btn-lg btn-block" role="button">Hex</a>
+      <div class="button-container">
+        <a href="{{ url_for('colorflipper.simple') }}" class="btn btn-dark btn-lg" role="button">Simple</a>
+        <a href="{{ url_for('colorflipper.hex') }}" class="btn btn-dark btn-lg" role="button">Hex</a>
+      </div>
     </div>
     <main>
       <div class="container">
