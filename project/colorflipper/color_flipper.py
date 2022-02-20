@@ -7,8 +7,8 @@ colorflipper_bp = Blueprint('colorflipper', __name__,
 
 @colorflipper_bp.route('/simple')
 def simple():
-    return render_template('colorflipper/index.html', title="Color Flipper")
+    return render_template('colorflipper/index.html', title="Color Flipper: Simple")
 
 @colorflipper_bp.route('/hex')
 def hex():
-    return render_template('colorflipper/hex.html', title="Color Flipper")
+    return render_template('colorflipper/hex.html', title="Color Flipper: Hex")
