@@ -3,6 +3,7 @@ from project.colorflipper.color_flipper import colorflipper_bp
 from project.counter.counter import counter_bp
 from project.review.review import review_bp
 from project.modal.modal import modal_bp
+from project.faq.faq import faq_bp
 
 app = Flask(__name__)
 
@@ -15,3 +16,4 @@ app.register_blueprint(colorflipper_bp)
 app.register_blueprint(counter_bp)
 app.register_blueprint(review_bp)
 app.register_blueprint(modal_bp)
+app.register_blueprint(faq_bp)

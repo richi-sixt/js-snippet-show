@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    {% include 'topnav-links.html' %}
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="static/css/styles.css" />
+  </head>
+  <body>
+    {% include 'topnav.html'%}
+    <main>
+      <section class="faqs">
+        <!-- title -->
+        <div class="title">
+          <h2>FAQs</h2>
+        </div>
+        <!-- questions -->
+        <div class="section-center">
+          <!-- question -->
+          <article class="faq">
+            <div class="faq-title">
+              <p>Is it true?</p>
+              <button type="button" class="faq-btn">
+                <span class="plus-icon">
+                  <i class="far fa-plus-square"></i>
+                </span>
+                <span class="minus-icon">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+            <div class="faq-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                repellat reprehenderit.
+              </p>
+            </div>
+          </article>
+          <!-- end of faq -->
+          <article class="faq">
+            <div class="faq-title">
+              <p>How are you doing?</p>
+              <button type="button" class="faq-btn">
+                <span class="plus-icon">
+                  <i class="far fa-plus-square"></i>
+                </span>
+                <span class="minus-icon">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+            <div class="faq-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                repellat reprehenderit.
+              </p>
+            </div>
+          </article>
+          <article class="faq">
+            <div class="faq-title">
+              <p>are you serious?</p>
+              <button type="button" class="faq-btn">
+                <span class="plus-icon">
+                  <i class="far fa-plus-square"></i>
+                </span>
+                <span class="minus-icon">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+            <div class="faq-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                repellat reprehenderit.
+              </p>
+            </div>
+          </article>
+      </section>
+    </main>
+    {% include 'scripts.html' %}
+    <script src="static/js/faq.js"></script>
+  </body>
+</html>

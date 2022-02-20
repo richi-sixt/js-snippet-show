@@ -4,10 +4,13 @@
     <h1>Willkommen zur JS Snippet Show!</h1>
     <br />
     <p>Hier findest du Javascript Beispiele</p>
+    <div class="button-group">
       <a href="{{ url_for('colorflipper.simple') }}" class="btn btn-primary" role="button">Color Flipper</a>
       <a href="{{ url_for('counter.counter') }}" class="btn btn-primary" role="button">Counter</a>
       <a href="{{ url_for('review.review') }}" class="btn btn-primary" role="button">Review</a>
       <a href="{{ url_for('modal.modal') }}" class="btn btn-primary" role="button">Modal</a>
+      <a href="{{ url_for('faq.faq') }}" class="btn btn-primary" role="button">FAQ</a>
+    </div>      
   </div>
 </div>
 {% endblock content %}
