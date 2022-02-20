@@ -165,7 +165,7 @@ Modal
 */
 .bg {
   min-height: 100vh;
-  background: url('background.jpg') center/cover no-repeat;
+  background: url('background.JPG') center/cover no-repeat;
   display: grid;
   margin-top: -25px;
   place-items: center;
