@@ -156,6 +156,8 @@ Menu
 
 .menu {
   padding: 5rem 0;
+  display: grid;
+  justify-content: center;
 }
 .title {
   text-align: center;
@@ -187,6 +189,10 @@ Menu
   transition: var(--transition);
 }
 .filter-btn:hover {
+  background: var(--clr-primary-3);
+  color: var(--clr-white);
+}
+.filter-btn:focus {
   background: var(--clr-primary-3);
   color: var(--clr-white);
 }
