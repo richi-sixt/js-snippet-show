@@ -174,7 +174,7 @@ main {
 .color {
   color: var(--clr-primary-5);
 }
-.btn-hero {
+.btn-counter {
   font-family: var(--ff-primary);
   text-transform: uppercase;
   background: transparent;
@@ -190,7 +190,7 @@ main {
   font-size: 1rem;
   padding: 0.75rem 1.25rem;
 }
-.btn-hero:hover {
+.btn-counter:hover {
   color: var(--clr-white);
   background: var(--clr-black);
 }
