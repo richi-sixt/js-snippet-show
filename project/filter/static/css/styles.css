@@ -188,6 +188,7 @@ Menu
   color: var(--clr-primary-3);
   cursor: pointer;
   transition: var(--transition);
+  margin: 5px;
 }
 .filter-btn:hover {
   background: var(--clr-primary-3);
