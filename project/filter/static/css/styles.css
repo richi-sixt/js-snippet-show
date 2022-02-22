@@ -155,7 +155,7 @@ Menu
 */
 
 .menu {
-  padding: 5rem 0;
+  padding: 3rem 0;
   display: grid;
   justify-content: center;
 }
@@ -171,9 +171,10 @@ Menu
   margin-right: auto;
 }
 .btn-container {
-  margin-bottom: 4rem;
-  display: flex;
+  position: relative;
   justify-content: center;
+  margin-bottom: 4rem;
+  text-align: center;
 }
 .filter-btn {
   background: transparent;
