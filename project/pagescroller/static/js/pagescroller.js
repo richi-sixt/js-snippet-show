@@ -62,7 +62,11 @@ scrollLinks.forEach((link) => {
     const navHeight = navbar.getBoundingClientRect().height;
     const containerHeight = linksContainer.getBoundingClientRect().height;
     const fixedNav = navbar.classList.contains('fixed-nav');
-    let position = element.offsetTop - navHeight;
+    let position = element.offsetTop - navHeight - 50;
+    /* 
+      - 50px as idea because margin-top: 50px on fixed-nav (after Flask Header)
+      You don't need the - 50 if you don't have a separat header - in this case you can replace main with header in index.html
+      */
 
     if (!fixedNav) {
       position = position - navHeight;

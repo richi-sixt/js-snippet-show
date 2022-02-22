@@ -140,7 +140,7 @@ p {
 }
 /*  global classes */
 
-.btn {
+.btn-ps {
   text-transform: uppercase;
   background: transparent;
   color: var(--clr-black);
@@ -154,7 +154,7 @@ p {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
 }
-.btn:hover {
+.btn-ps:hover {
   color: var(--clr-white);
   background: var(--clr-black);
 }
@@ -164,7 +164,7 @@ p {
   border-radius: 0;
   padding: 0.5rem 1rem;
 }
-.btn:hover {
+.btn-ps:hover {
   background: var(--clr-white);
   color: var(--clr-secondary);
 }
@@ -177,7 +177,6 @@ p {
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
-  max-height: 100vw;
 }
 @media screen and (min-width: 992px) {
   .section-center {
@@ -195,32 +194,25 @@ Scroll
 ===============
 */
 /* navbar */
-#nav {
-  background: (--clr-white);
+nav {
+  background: var(--clr-white);
   padding: 1rem 1.5rem;
 }
 /* fixed nav */
 .fixed-nav {
   position: fixed;
-  top: 50px;
+  top: 0;
   left: 0;
   width: 100%;
   background: var(--clr-white);
   box-shadow: var(--light-shadow);
-  margin-bottom: 50px;
+  margin-top: 50px; /* after the Flask Header (main index.html) */
 }
 .fixed-nav .links a {
-  margin-top: 25px;
   color: var(--clr-grey-1);
 }
 .fixed-nav .links a:hover {
   color: var(--clr-secondary);
-}
-.fixe-nav .links a:focus {
-  color: var(--clr-primary-3);
-}
-.fixed-nav .links-container {
-  height: auto !important;
 }
 .nav-header {
   display: flex;
@@ -274,9 +266,8 @@ Scroll
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* margin-top: 5px; */
   }
-  .nav-header-1 {
+  .nav-header {
     padding: 0;
   }
   .nav-toggle {
@@ -309,18 +300,16 @@ header {
   margin: -25px;
   background: (--clr-white);
 }
-
 .header {
   min-height: 100vh;
   background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)),
-    url(./hero-bcg.jpeg) center/cover no-repeat;
+    url(./pic-6.jpg) center/cover no-repeat;
 }
 .banner {
-  max-height: 100vh;
+  min-height: 100vh;
   display: grid;
   place-items: center;
   text-align: center;
-  /* margin: 20px; */
 }
 .container h1 {
   color: var(--clr-white);
@@ -345,15 +334,13 @@ header {
 .title span {
   color: var(--clr-secondary);
 }
-#about,
-#services,
-#tours {
+#first,
+#second,
+#third {
   height: 80vh;
-  margin-top: 25px;
 }
-#services {
+#second {
   background: var(--clr-white);
-  margin-top: 25px;
 }
 footer {
   background: var(--clr-grey-1);
