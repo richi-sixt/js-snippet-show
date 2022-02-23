@@ -7,6 +7,7 @@ from project.faq.faq import faq_bp
 from project.filter.filter import filter_bp
 from project.pagescroller.pagescroller import pagescroller_bp
 from project.tabs.tabs import tabs_bp
+from project.sliders.sliders import sliders_bp
 
 app = Flask(__name__)
 
@@ -23,3 +24,4 @@ app.register_blueprint(faq_bp)
 app.register_blueprint(filter_bp)
 app.register_blueprint(pagescroller_bp)
 app.register_blueprint(tabs_bp)
+app.register_blueprint(sliders_bp)

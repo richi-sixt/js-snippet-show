@@ -5,6 +5,6 @@ tabs_bp = Blueprint('tabs', __name__,
                           static_folder='static',
                           url_prefix="/tabs")
 
-@tabs_bp.route('/tabs')
+@tabs_bp.route('/')
 def tabs():
     return render_template('tabs/index.html', title="JS Tabs")

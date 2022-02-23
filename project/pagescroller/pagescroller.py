@@ -5,6 +5,6 @@ pagescroller_bp = Blueprint('pagescroller', __name__,
                           static_folder='static',
                           url_prefix="/pagescroller")
 
-@pagescroller_bp.route('/pagescroller')
+@pagescroller_bp.route('/')
 def pagescroller():
     return render_template('pagescroller/index.html', title="Page Scroller")
