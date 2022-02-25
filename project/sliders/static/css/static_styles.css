@@ -136,6 +136,10 @@ p {
   }
 }
 /*  global classes */
+.button-container {
+  text-align: center;
+  margin-bottom: 25px;
+}
 
 /* .btn {
   text-transform: uppercase;
@@ -150,11 +154,13 @@ p {
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
+  justify-content: center;
 }
 .btn:hover {
   color: var(--clr-white);
   background: var(--clr-black);
 } */
+
 /* section */
 .section {
   padding: 5rem 0;
