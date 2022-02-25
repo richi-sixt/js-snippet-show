@@ -128,7 +128,10 @@ p {
     line-height: 1;
   }
 }
-
+/* section */
+.section {
+  padding: 5rem 0;
+}
 .section-center {
   width: 90vw;
   margin: 0 auto;
@@ -145,6 +148,19 @@ main {
   place-items: center;
 }
 
+.title {
+  margin-bottom: 1.25rem;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.underline {
+  height: 0.25rem;
+  width: 5rem;
+  background: var(--clr-primary-5);
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .button-container {
   text-align: center;
   margin-bottom: 25px;
@@ -159,7 +175,6 @@ section {
   width: 85vw;
   max-width: var(--fixed-width);
   margin: 0 auto;
-  margin-top: 5rem;
   text-align: center;
   padding: 1rem 0;
   /* set relative for buttons */
@@ -195,11 +210,7 @@ h4 {
   letter-spacing: var(--spacing);
   margin: 0.5rem 0;
 }
-.title {
-  margin-bottom: 1.25rem;
-  letter-spacing: 2px;
-  text-transform: capitalize;
-}
+
 .text {
   color: var(--clr-grey-5);
   line-height: 1.8;
@@ -218,6 +229,12 @@ h4 {
   color: var(--clr-primary-5);
 }
 /* set buttons */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.75rem;
+}
+
 .btn-slider {
   position: absolute;
   top: 175px;
