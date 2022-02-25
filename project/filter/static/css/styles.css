@@ -222,3 +222,8 @@ Menu
     height: 150px;
   }
 }
+
+footer {
+  display: block;
+  text-align: left;
+}

@@ -233,3 +233,8 @@ Modal
   color: var(--clr-red-light);
   transform: scale(1.3);
 }
+
+footer {
+  display: block;
+  text-align: left;
+}

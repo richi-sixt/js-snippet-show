@@ -202,3 +202,8 @@ Questions
 .show-text .plus-icon {
   display: none;
 }
+
+footer {
+  display: block;
+  text-align: left;
+}

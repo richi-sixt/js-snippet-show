@@ -295,3 +295,8 @@ h4 {
 .slide.last {
   transform: translateX(-100%);
 }
+
+footer {
+  display: block;
+  text-align: left;
+}

@@ -231,6 +231,7 @@ Slider
   display: flex;
   justify-content: center;
   margin-top: 0.75rem;
+  margin-bottom: 2rem;
 }
 .prevBtn,
 .nextBtn {
@@ -267,4 +268,9 @@ Slider
   .slider-container {
     height: 65vh;
   }
+}
+
+footer {
+  display: block;
+  text-align: left;
 }

@@ -164,3 +164,8 @@ main {
   color: var(--clr-white);
   background: var(--clr-black);
 }
+
+footer {
+  display: block;
+  text-align: left;
+}

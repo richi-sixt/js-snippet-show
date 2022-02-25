@@ -245,3 +245,8 @@ About
 .content.active {
   display: block;
 }
+
+footer {
+  display: block;
+  text-align: left;
+}
